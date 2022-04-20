@@ -93,16 +93,7 @@ while(accounts) {
 		accounts=false;
 		break;
 	}
-	/*
-	System.out.println(" \n To continue Enter yes or to exit enter no");
-	String repeating=scan.next();
-	if(repeating.equals("yes") || repeating.equals("YES")) {
-		
-	}
-	else {
-		accounts=false;
-	}
-	*/
+
 	}
 }
 else {
@@ -110,16 +101,7 @@ else {
 	
 }
 			
-/*		
-Function user1=new Function();
-		//user1.add_account(st);
-		//user1.check_balance("150008300399288",st);
-		user1.check_balance("150009443234680",st);
-		user1.deposit("150009443234680", 1000,st);
-		user1.check_balance("150009443234680",st);
-		user1.withdraw("150009443234680", 100,st);
-		user1.check_balance("150009443234680",st);
-		*/
+
 		con.close();
 	}
 	}
